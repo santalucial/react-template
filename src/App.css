@@ -1,0 +1,67 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+}
+
+.App-header {
+	background-color: #0f2b3d;
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #09d3ac;
+}
+
+.feedback {
+	transition: background-color 2s ease;
+}
+
+.feedback-writing {
+	background-color: #ffff0085;
+}
+
+.feedback-read {
+	background-color: #00ff268f;
+}
+
+.feedback-writing:focus {
+	background-color: #ffff0085;
+}
+
+.feedback-read:focus {
+	background-color: #00ff268f;
+}
+
+.feedback-error {
+	background-color: #ff000080;
+}
+
+.feedback-error:focus {
+	background-color: #ff000080;
+}
+/* 
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+	html {
+		transform: rotate(-90deg);
+		transform-origin: left top;
+		width: 100vh;
+		height: 100vw;
+		overflow-x: hidden;
+		position: absolute;
+		top: 100%;
+		left: 0;
+	}
+} */
+
+.vericaltext {
+	padding-right: 13px !important;
+	padding-left: 13px !important;
+}
